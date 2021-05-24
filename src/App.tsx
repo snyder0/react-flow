@@ -1,7 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import FlowDiagram from './FlowDiagram';
+import React from "react";
+import "./App.css";
+import FlowDiagram from "./FlowDiagram";
+import { initializeIcons } from "@fluentui/font-icons-mdl2";
+initializeIcons();
 
 function App() {
   return (
